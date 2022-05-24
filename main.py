@@ -11,7 +11,7 @@ first_n = input("Введите первое число: ")
 second_n = input("Введите второе число: ")
 
 if len(first_n) < 3 or len(second_n) < 4:  # проверка ввода
-    print('Некорректный ввод, попробуйте снова!')
+    print('Некорректный ввов. Программа завершается!')
 else:
     numbers = math(first_n, second_n)  # забираем два числа с функции
     summ = int(numbers[0]) + int(numbers[1])  # сумма чисел
