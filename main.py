@@ -6,7 +6,7 @@ def math(first_n, second_n):
     print('Второе перевернутое число:', int(second_n_reverse))
     return first_n_reverse, second_n_reverse
 
-
+print('Новая ветка')
 first_n = input("Введите первое число: ")
 second_n = input("Введите второе число: ")
 
